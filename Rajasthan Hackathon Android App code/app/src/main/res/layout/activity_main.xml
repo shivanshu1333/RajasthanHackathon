@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.example.jaskirat.hackathonrajasthan.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starting Point"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/start" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/start"
+        android:textSize="15dp"
+        android:text="location 1"
+        android:layout_marginTop="15dp"
+        android:id="@+id/start_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/start_value"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Intermediate Stops"
+        android:id="@+id/inter_head" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inter_head"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:text="station (5 Ltr), station (6 Ltr), station (2 Ltr)"
+        android:id="@+id/intermediates" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/intermediates"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:text="Ending Point"
+        android:textStyle="bold"
+        android:id="@+id/stop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/stop"
+        android:layout_marginTop="15dp"
+        android:text="location 2"
+        android:textSize="15dp"
+        android:id="@+id/stop_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/stop_value"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Total Quantity Required"
+        android:id="@+id/qtty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:text="20 litres"
+        android:layout_below="@id/qtty"
+        android:id="@+id/qtty_value" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/qtty_value"
+        android:layout_marginTop="35dp"
+        android:text="Start Journey"
+        android:textSize="20dp"
+        android:background="@color/green"
+        android:id="@+id/start_journey" />
+
+</RelativeLayout>
