@@ -27,7 +27,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/start"
         android:textSize="15dp"
-        android:text="location 1"
+        android:text="Udaipur"
         android:layout_marginTop="15dp"
         android:id="@+id/start_value" />
 
@@ -49,7 +49,7 @@
         android:layout_below="@id/inter_head"
         android:layout_marginTop="15dp"
         android:textSize="15dp"
-        android:text="station (5 Ltr), station (6 Ltr), station (2 Ltr)"
+        android:text="Jaipur (5 Ltr), Jaisalmer (6 Ltr), Jodhpur (2 Ltr)"
         android:id="@+id/intermediates" />
 
     <TextView
@@ -69,7 +69,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/stop"
         android:layout_marginTop="15dp"
-        android:text="location 2"
+        android:text="Kota"
         android:textSize="15dp"
         android:id="@+id/stop_value" />
 

@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:textSize="24dp"
         android:text="Continue"
-        android:background="@drawable/circle_button"
+        android:background="@color/green"
         android:layout_centerVertical="true"
         android:id="@+id/cont" />
 
